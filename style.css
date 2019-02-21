@@ -1,0 +1,106 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+
+.row {
+	display: flex;
+	height: 25%;
+	width: 100%;
+}
+
+.tinyrow{
+	height: 100%;
+	width: 50%;
+}
+
+.big-column {
+	display: flex;
+	height: 75%;
+	width: 100%;
+}
+
+.threebox{
+	height: calc(100%/3);
+	width:100%;
+}
+
+.babycolumn {
+	display: block;
+	width: 25%;
+	height: 100%;
+}
+
+.beige{
+ background-color: #e6b1bd;
+}
+
+.grey {
+
+	background-color: #cccccc;
+}
+
+.burgundy {
+
+	background-color:#F9B8C8;
+}
+
+.reck {
+	display: block;
+	width: 75%;
+	height: 100%;
+}
+
+.pinkish {
+	
+	background-color:#C39797;
+}
+
+.purple {
+	
+	background-color: #bfb4ff;
+}
+
+.grow{
+	
+	transition: all .2s ease-in-out;
+}
+.row{
+	display:flex;
+	height:25%;
+	width:100%;
+}
+.black {
+	
+	background-color: #000000;
+}
+.lightgreen{
+	background-color: #CDD873;
+}
+.vanilla{
+	background-color: #FFEEDD;
+}
+.smallboxes{
+	display: flex;
+	height: 100%;
+	width: calc(100%/8);
+}
+
+
+.grow:hover{
+	transform:scale(1.1);
+}
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
